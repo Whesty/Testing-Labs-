@@ -101,3 +101,4 @@ D:\Документы\Институт БГТУ\3к1с\Тестирование\
 D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\Autotestung\Autotestung\obj\Debug\net6.0\Autotestung.pdb
 D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\Autotestung\Autotestung\obj\Debug\net6.0\Autotestung.genruntimeconfig.cache
 D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\Autotestung\Autotestung\obj\Debug\net6.0\ref\Autotestung.dll
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\Autotestung\Autotestung\bin\Debug\net6.0\WebDriver.Support.dll

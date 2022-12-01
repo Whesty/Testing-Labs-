@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lw2LQga7TWTY9nH8uNK5rtVrci17+GHhuNRmeJS/de+kIUED2Adby/E7RWskVnMk0n4URJAxbendn9b7jvCg8g==",
+  "dgSpecHash": "CL6OYpw1MdSFX9CCMrxdl1GHzYSn8RJG1f8dJ+YRWNIKdRCVggGXMhqu+tjduOYRHnTY/O58JpSrBxpizLLhmA==",
   "success": true,
   "projectFilePath": "D:\\Документы\\Институт БГТУ\\3к1с\\Тестирование\\Testing-Labs-\\Autotestung\\Autotestung\\Autotestung.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\Diana\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\Diana\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
     "C:\\Users\\Diana\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
+    "C:\\Users\\Diana\\.nuget\\packages\\selenium.support\\4.6.0\\selenium.support.4.6.0.nupkg.sha512",
     "C:\\Users\\Diana\\.nuget\\packages\\selenium.webdriver\\4.6.0\\selenium.webdriver.4.6.0.nupkg.sha512",
     "C:\\Users\\Diana\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],

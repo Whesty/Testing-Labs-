@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{3A378E69-AD5D-4F6E-974C-97D6EC548CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerCalculator", "IntegerCalculator\IntegerCalculator.csproj", "{60738A14-E552-4450-9043-12B5A8E199BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A378E69-AD5D-4F6E-974C-97D6EC548CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A378E69-AD5D-4F6E-974C-97D6EC548CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A378E69-AD5D-4F6E-974C-97D6EC548CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A378E69-AD5D-4F6E-974C-97D6EC548CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60738A14-E552-4450-9043-12B5A8E199BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60738A14-E552-4450-9043-12B5A8E199BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60738A14-E552-4450-9043-12B5A8E199BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60738A14-E552-4450-9043-12B5A8E199BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

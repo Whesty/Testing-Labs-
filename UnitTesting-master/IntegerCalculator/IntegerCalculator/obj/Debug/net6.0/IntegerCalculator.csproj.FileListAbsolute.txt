@@ -1,0 +1,15 @@
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\bin\Debug\net6.0\IntegerCalculator.exe
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\bin\Debug\net6.0\IntegerCalculator.deps.json
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\bin\Debug\net6.0\IntegerCalculator.runtimeconfig.json
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\bin\Debug\net6.0\IntegerCalculator.dll
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\bin\Debug\net6.0\IntegerCalculator.pdb
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\obj\Debug\net6.0\IntegerCalculator.csproj.AssemblyReference.cache
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\obj\Debug\net6.0\IntegerCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\obj\Debug\net6.0\IntegerCalculator.AssemblyInfoInputs.cache
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\obj\Debug\net6.0\IntegerCalculator.AssemblyInfo.cs
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\obj\Debug\net6.0\IntegerCalculator.csproj.CoreCompileInputs.cache
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\obj\Debug\net6.0\IntegerCalculator.dll
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\obj\Debug\net6.0\refint\IntegerCalculator.dll
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\obj\Debug\net6.0\IntegerCalculator.pdb
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\obj\Debug\net6.0\IntegerCalculator.genruntimeconfig.cache
+D:\Документы\Институт БГТУ\3к1с\Тестирование\Testing-Labs-\UnitTesting-master\IntegerCalculator\IntegerCalculator\obj\Debug\net6.0\ref\IntegerCalculator.dll
