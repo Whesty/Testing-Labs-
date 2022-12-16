@@ -1,54 +1,60 @@
+using Autotestung.Driver;
+using Autotestung.Services;
+using log4net;
+using log4net.Appender;
+using log4net.Core;
+using log4net.Layout;
+using log4net.Repository.Hierarchy;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Support.UI;
+using System.Runtime.CompilerServices;
 
 namespace Autotestung
 {
     public class Tests
     {
         private IWebDriver driver;
-        /*private readonly By _ClosBaner = By.XPath("//div[@class='banner_close close to___process']");
-        private readonly By _ButtonAuth = By.XPath("//a[@class='btn-login-js']");
-
-        private readonly By _singButton = By.XPath("//a[text()='Авторизация']");
-        private readonly By _LoginInutButton = By.XPath("//input[@name='login']");
-        private readonly By _PasswordInutButton = By.XPath("//input[@name='password']");
-        private readonly By _ButtonEnter = By.XPath("//button[text()='Войти']");
-
-        private const string _login = "123456789";
-        private const string _password = "123456789";*/
+        private Logger logger;
 
         [SetUp]
         public void Setup()
         {
-            driver = new OpenQA.Selenium.Edge.EdgeDriver();
+            
+            driver =  DrivarSingilton.GetWebDriver();
             driver.Navigate().GoToUrl("https://www.marko.by/");
-            //Запуск теста в браузере Edge без открытия экземпляра
-            /*var options = new EdgeOptions();
-            options.UseStrictFileInteractability = true;
-            options.AddArgument("headless");
-            driver = new EdgeDriver(options);
-            driver.Navigate().GoToUrl("https://www.marko.by/");*/
+            
 
         }
+        public const string Errors_AnyCreditUser = "Неверный телефон или пароль";
+        public const string Errors_EmptyLogin = "Введите, пожалуйста, Ваш номер телефона!";
+        public const string Errors_EmptyPassword = "Введите, пожалуйста, Ваш пароль!";
+        //[Test]
+        //public void LoginWithAnyUser()
+        //{
+        //    Page.LoginPage loginPage = new Page.LoginPage(driver);
+        //    Assert.AreEqual(Errors_EmptyLogin, loginPage.Login(UserCreator.WithCredentialsFromProperty()));
+        //}
+
 
         [Test]
-        public void Test1()
+        public void LoginWithEmptyCredentials()
         {
-            /*driver.FindElement(_ButtonAuth).Click();
-            var singin = driver.FindElement(_singButton);
-            singin.Click();
-            
-            var login = driver.FindElement(_LoginInutButton);
-            login.SendKeys(_login);
-            var password = driver.FindElement(_PasswordInutButton);
-            password.SendKeys(_password);
-            var enter = driver.FindElement(_ButtonEnter);
-            enter.Click();*/
-            Class1 class1 = new Class1(driver);
-            class1.ClickByAuth();
-            class1.inputLogin();
-            class1.inputPasword();
+            Page.LoginPage loginPage = new Page.LoginPage(driver);
+            Assert.AreEqual(Errors_EmptyLogin, loginPage.Login(UserCreator.WithEmptyCredentials()));
+        }
+        [Test]
+        public void LoginWithEmptyLogin()
+        {
+            Page.LoginPage loginPage = new Page.LoginPage(driver);
+            String Test_MessageErors = loginPage.Login(UserCreator.WhithEmptyLogin());
+            Assert.AreEqual(Errors_EmptyLogin, Test_MessageErors);
+        }
+        [Test]
+        public void LoginWithEmptyPassword()
+        {
+            Page.LoginPage loginPage = new Page.LoginPage(driver);
+            Assert.AreEqual(Errors_EmptyPassword, loginPage.Login(UserCreator.WhithEmptyPassword()));
         }
     }
 }

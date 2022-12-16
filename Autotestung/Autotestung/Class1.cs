@@ -32,17 +32,19 @@ namespace Autotestung
                 singin.Click();
             }
         }
-        public void inputLogin()
+        public void inputLogin(string _login)
         {
             var login = driver.FindElement(_LoginInutButton);
             login.SendKeys(_login);
         }
-        public void inputPasword()
+        public void inputPasword(string _pasword)
         {
             var password = driver.FindElement(_PasswordInutButton);
             password.SendKeys(_password);
 
         }
+
+        
 
     }
 }
