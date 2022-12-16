@@ -15,7 +15,6 @@ namespace Autotestung
     public class Tests
     {
         private IWebDriver driver;
-        private Logger logger;
 
         [SetUp]
         public void Setup()
@@ -29,12 +28,12 @@ namespace Autotestung
         public const string Errors_AnyCreditUser = "Неверный телефон или пароль";
         public const string Errors_EmptyLogin = "Введите, пожалуйста, Ваш номер телефона!";
         public const string Errors_EmptyPassword = "Введите, пожалуйста, Ваш пароль!";
-        //[Test]
-        //public void LoginWithAnyUser()
-        //{
-        //    Page.LoginPage loginPage = new Page.LoginPage(driver);
-        //    Assert.AreEqual(Errors_EmptyLogin, loginPage.Login(UserCreator.WithCredentialsFromProperty()));
-        //}
+        /*[Test]
+        public void LoginWithAnyUser()
+        {
+            Page.LoginPage loginPage = new Page.LoginPage(driver);
+            Assert.AreEqual(Errors_AnyCreditUser, loginPage.Login(UserCreator.WithCredentialsFromProperty()));
+        }*/
 
 
         [Test]
@@ -55,6 +54,30 @@ namespace Autotestung
         {
             Page.LoginPage loginPage = new Page.LoginPage(driver);
             Assert.AreEqual(Errors_EmptyPassword, loginPage.Login(UserCreator.WhithEmptyPassword()));
+        }
+        public static String SearchErrrorsResult = "По данному запросу ничего не найдено";
+        public static String SearchErrorsEmptyResult = "Пустой поисковый запрос";
+        [Test]
+        public void SearchForAnyWords()
+        {
+            Page.SearchPage searchPage = new Page.SearchPage(driver);
+            searchPage.Search(SearchServices.WithSearchErrorsFromProperty());
+            Assert.AreEqual(SearchErrrorsResult, searchPage.MessageErors);
+        }
+
+        [Test]
+        public void SearchForEmptyWords()
+        {
+            Page.SearchPage searchPage = new Page.SearchPage(driver);
+            searchPage.Search(SearchServices.WithEmptySearch());
+            Assert.AreEqual(SearchErrorsEmptyResult, searchPage.MessageErors);
+        }
+        [Test]
+        public void SearchForWords()
+        {
+            Page.SearchPage searchPage = new Page.SearchPage(driver);
+            searchPage.Search(SearchServices.WithSearchFromProperty());
+            Assert.AreEqual(SearchServices.WithSearchFromProperty().SearchTest, searchPage.MessageErors);
         }
     }
 }
